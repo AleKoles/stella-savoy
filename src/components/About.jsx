@@ -1,21 +1,18 @@
 import React from 'react';
-import Laptop from '../assets/laptop.jpg';
+import Laptop from '../assets/woman_laptop.webp';
 
 const About = () => {
   return (
     <div className='w-full bg-white py-16 px-4' id="about">
       <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-        <img className='w-[500px] mx-auto my-4' src={Laptop} alt='/' />
+        <img className='w-[500px] mx-auto my-4 rounded-lg' src={Laptop} alt='/' />
         <div className='flex flex-col justify-center'>
-          <p className='text-theme-yellow font-bold '>DATA ANALYTICS DASHBOARD</p>
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Manage Data Analytics Centrally</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            molestiae delectus culpa hic assumenda, voluptate reprehenderit
-            dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
-            eveniet ex deserunt fuga?
+          <h2 className='md:text-4xl sm:text-3xl text-theme-yellow text-2xl font-bold py-2'>Stella Accounting <span className="text-theme-gray">подбає про ваші податки</span></h2>
+          <p class="lg:text-lg">
+          Ми розуміємо...податки - це складно. Податковий кодекс постійно змінюється, електронний кабінет працює неідеально, а необхідність дзвонити в податкову викликає у вас стрес. 
+          На щастя, ми любимо те, що ми робимо, і нам приносить радість допомогти вам впоратися з податками, нарахуванням заробітної плати та будь-якими іншими фінансовими питаннями.
           </p>
-          <button className='bg-black text-theme-yellow w-[200px] rounded-full font-medium my-6 mx-auto md:mx-0 py-3'>Get Started</button>
+          
         </div>
       </div>
     </div>

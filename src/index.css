@@ -12,6 +12,8 @@ body{
     font-variation-settings: "wdth" 100;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -20,4 +22,9 @@ h4 {
     font-optical-sizing: auto;
     font-weight: <weight>;
     font-style: normal;
+}
+
+
+.playfair{
+    font-family: "Playfair Display", serif;
 }
