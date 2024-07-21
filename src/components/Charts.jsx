@@ -54,3 +54,4 @@ const ChartComponent = ({ data }) => {
 };
 
 export default ChartComponent;
+
