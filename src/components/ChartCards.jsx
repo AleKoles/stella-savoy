@@ -37,7 +37,7 @@ const chartData3 = {
 
 const ChartCards = () => {
   return (
-    <div className="mx-auto max-w-7xl flex flex-col gap-12 ">
+    <div className="mx-auto max-w-7xl py-16 flex flex-col gap-12 ">
         <h2 className="text-center text-3xl lg:text-4xl font-bold ">Чи знаєте ви, що..?</h2>
         <div className="grid grif-cols-1 lg:grid-cols-3 gap-8 items-start  justify-center text-lg">
             <div className=" px-4 card relative flex flex-col sm:flex-row lg:flex-col items-center gap-6 lg:gap-12">
