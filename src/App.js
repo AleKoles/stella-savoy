@@ -1,10 +1,10 @@
 import React from 'react';
 import About from './components/About';
-import Cards from './components/Cards';
+import Companies from './components/Companies';
+import FOP from './components/FOP';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import Newsletter from './components/Newsletter';
 import ChartCards from  './components/ChartCards';
 
 function App() {
@@ -13,9 +13,10 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <FOP />
       <ChartCards />
-      <Newsletter />
-      <Cards />
+      <Companies />
+      
       <Footer />
     </div>
   );

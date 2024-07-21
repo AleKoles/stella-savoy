@@ -2,7 +2,6 @@ import React from 'react';
 import logo from '../assets/star.png'; 
 
 import { Link } from 'react-scroll';
-import { TfiInstagram } from "react-icons/tfi";
 import { PiPhoneCallLight, PiWhatsappLogoLight, PiTelegramLogoLight } from "react-icons/pi";
 import { GoMail } from "react-icons/go";
 import ScrollToTop from 'react-scroll-up';
@@ -49,7 +48,7 @@ const Footer = () => {
         
 
         </div>
-        <p className="cols-span-full w-full text-center text-theme-gray mt-8 text-sm">© 2024 Stella Accounting</p>
+        <p className="cols-span-full w-full text-center text-theme-gray mt-8 text-sm">© 2024 Stella Savoy</p>
         <ScrollToTop showUnder={160}>
           <div className="text-theme-blue2 hover:text-theme-gray2 duration-150 ease-in-out flex flex-col">
             <SlArrowUp className="-mt-4" size={27}/>
