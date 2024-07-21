@@ -1,9 +1,4 @@
 import React from 'react';
-import { PiHandshakeFill } from "react-icons/pi";
-import { LiaBusinessTimeSolid } from "react-icons/lia";
-import { TbReportAnalytics } from "react-icons/tb";
-import gsap from 'gsap';
-
 
 const About = () => {
   return (

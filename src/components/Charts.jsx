@@ -31,7 +31,9 @@ const ChartComponent = ({ data }) => {
   useEffect(() => {
     if (!isVisible || !chartRef.current) return;
 
-    chartInstance.current = new Chart(chartRef.current, {
+    const chartElement = chartRef.current;
+
+    chartInstance.current = new Chart(chartElement, {
       type: 'doughnut',
       data: data,
     });
