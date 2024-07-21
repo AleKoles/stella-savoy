@@ -15,8 +15,7 @@ function App() {
       <About />
       <FOP />
       <ChartCards />
-      <Companies />
-      
+      <Companies />   
       <Footer />
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import { PiCoinsLight } from "react-icons/pi";
 import Laptop from '../assets/accountant.webp';
 
