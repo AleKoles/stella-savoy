@@ -4,7 +4,6 @@ import { Chart } from 'chart.js/auto';
 const ChartComponent = ({ data }) => {
   const chartRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
-  const chartInstance = useRef(null);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -29,18 +28,19 @@ const ChartComponent = ({ data }) => {
   }, []);
 
   useEffect(() => {
-    if (!isVisible || !chartRef.current) return;
+    if (!isVisible) return;
 
-    chartInstance.current = new Chart(chartRef.current, {
+    const chartElement = chartRef.current;
+
+    const config = {
       type: 'doughnut',
       data: data,
-    });
+    };
+
+    const myChart = new Chart(chartElement, config);
 
     return () => {
-      if (chartInstance.current) {
-        chartInstance.current.destroy();
-        chartInstance.current = null;
-      }
+      myChart.destroy();
     };
   }, [isVisible, data]);
 
@@ -52,4 +52,3 @@ const ChartComponent = ({ data }) => {
 };
 
 export default ChartComponent;
-
