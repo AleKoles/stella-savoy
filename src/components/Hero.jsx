@@ -1,5 +1,6 @@
 import React from 'react';
 import hero from '../assets/lapto-_smile.webp'
+import { Link } from 'react-scroll';
 
 
 
@@ -17,7 +18,7 @@ const Hero = () => {
             Ми маємо 10-річний досвід ведення бухгалтерського обліку для приватних осіб та малого бізнесу
             </p>
           </div>
-          <button className='bg-theme-yellow w-[200px] rounded-lg font-medium my-6 mx-auto py-3'>Зв'яжіться з нами</button>
+          <button className='bg-theme-yellow w-[200px] rounded-lg font-medium my-6 mx-auto py-3'><Link to="contact" spy={true} smooth={true}  duration={500}>Зв'яжіться з нами</Link></button>
         </div> 
         <div class="relative lg:block hidden mt-4 mx-auto">
           <img className='w-full relative z-10 rounded-lg shadow-lg' src={hero} alt="/" />

@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React from 'react';
 import { PiCoinsLight } from "react-icons/pi";
 import Laptop from '../assets/officeppl.webp';
 
@@ -20,49 +20,49 @@ const Companies = () => {
           Для <span className="text-theme-yellow">малих підприємств</span>
         </h2>
           <div className='my-4'>
-            <h3 className='text-lg font-semibold'>
+            <h3 className='text-lg lg:text-xl font-semibold'>
             Фінансовий облік та звітність
             </h3>
             <ul className='pl-4'>
-              <li className='flex items-center gap-2 py-1'>
+              <li className='flex items-center gap-2 py-1 lg:text-lg'>
                 <PiCoinsLight className='text-theme-yellow' /> Ведення бухгалтерського та управлінського обліку.
               </li>
-              <li className='flex items-center gap-2 py-1'>
+              <li className='flex items-center gap-2 py-1 lg:text-lg'>
                 <PiCoinsLight className='text-theme-yellow'  /> Підготовка фінансової звітності відповідно до стандартів.
               </li>
-              <li className='flex items-center gap-2 py-1'>
+              <li className='flex items-center gap-2 py-1 lg:text-lg'>
                 <PiCoinsLight className='text-theme-yellow' /> Контроль за фінансовими потоками та аналіз доходів/витрат.
               </li>
             </ul>
           </div>
           <div className='my-4'>
-            <h3 className='text-lg font-semibold'>
+            <h3 className='text-lg font-semibold lg:text-xl'>
             Податкове планування та аудит
             </h3>
             <ul className='pl-4'>
-              <li className='flex items-center gap-2 py-1'>
+              <li className='flex items-center gap-2 py-1 lg:text-lg'>
                 <PiCoinsLight className=' text-theme-yellow' /> Розробка податкових стратегій для зниження податкових зобов'язань.
               </li>
-              <li className='flex items-center py-1 gap-2'>
+              <li className='flex items-center py-1 gap-2 lg:text-lg'>
                 <PiCoinsLight className=' text-theme-yellow' /> Проведення внутрішніх аудитів для перевірки точності облікових записів.
               </li>
-              <li className='flex items-center gap-2 py-1'>
+              <li className='flex items-center gap-2 py-1 lg:text-lg'>
                 <PiCoinsLight className='text-theme-yellow' /> Підготовка та супровід під час податкових перевірок.
               </li>
             </ul>
           </div>
           <div className='my-4'>
-            <h3 className='text-lg font-semibold'>
+            <h3 className='text-lg font-semibold lg:text-xl'>
             Фінансове планування та бюджетування
             </h3>
             <ul className='pl-4'>
-              <li className='flex gap-2 items-center py-1'>
+              <li className='flex gap-2 items-center py-1 lg:text-lg'>
                 <PiCoinsLight className='text-theme-yellow' /> Розробка та контроль бюджету підприємства.
               </li>
-              <li className='flex items-center gap-2 py-1'>
+              <li className='flex items-center gap-2 py-1 lg:text-lg'>
                 <PiCoinsLight className='text-theme-yellow' /> Аналіз фінансових показників для прийняття управлінських рішень.
               </li>
-              <li className='flex items-center gap-2 py-1'>
+              <li className='flex items-center gap-2 py-1 lg:text-lg'>
                 <PiCoinsLight className='text-theme-yellow' /> Прогнозування грошових потоків та планування інвестицій.
               </li>
             </ul>
