@@ -13,7 +13,7 @@ const ChartComponent = ({ data }) => {
           observer.disconnect();
         }
       },
-      { threshold: 0.1 } 
+      { threshold: 0.1 }
     );
 
     if (chartRef.current) {
@@ -30,12 +30,14 @@ const ChartComponent = ({ data }) => {
   useEffect(() => {
     if (!isVisible) return;
 
+    const chartElement = chartRef.current;
+
     const config = {
       type: 'doughnut',
       data: data,
     };
 
-    const myChart = new Chart(chartRef.current, config);
+    const myChart = new Chart(chartElement, config);
 
     return () => {
       myChart.destroy();
