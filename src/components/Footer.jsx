@@ -2,7 +2,8 @@ import React from 'react';
 import logo from '../assets/star.png'; 
 
 import { Link } from 'react-scroll';
-import { PiPhoneCallLight, PiWhatsappLogoLight, PiTelegramLogoLight } from "react-icons/pi";
+import { PiPhoneCallLight, PiTelegramLogoLight } from "react-icons/pi";
+import { IoIosPhonePortrait } from "react-icons/io";
 import { GoMail } from "react-icons/go";
 import ScrollToTop from 'react-scroll-up';
 import { SlArrowUp } from "react-icons/sl";
@@ -23,23 +24,23 @@ const Footer = () => {
           <p className="text-theme-gray2 uppercase text-center">Зв'яжіться з нами</p>
           <ul className='flex gap-4 items-center justify-center text-theme-blue2 basis-1/3'>
           <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
-            <a href="https://t.me/myrons" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+            <a href="https://t.me/stelusik" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
               <PiTelegramLogoLight size={27} />
             </a>
           </li>
           <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
-            <a href="https://wa.me/380931070489" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
-              <PiWhatsappLogoLight size={27} />
-            </a>
-          </li>
-          <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
-            <a href="mailto:spiritstone1995@gmail.com" rel="noopener noreferrer" aria-label="Email">
+            <a href="mailto:stelusik1982@gmail.com" rel="noopener noreferrer" aria-label="Email">
               <GoMail size={25} />
             </a>
           </li>
           <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
-            <a href="tel:+380931070489" rel="noopener noreferrer" aria-label="Mobile Phone">
+            <a href="tel:+380994620659" rel="noopener noreferrer" aria-label="Mobile Phone">
               <PiPhoneCallLight size={25} />
+            </a>
+          </li>
+          <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
+            <a href="tel:+380733853119" rel="noopener noreferrer" aria-label="Mobile Phone">
+              <IoIosPhonePortrait size={25} />
             </a>
           </li>
           </ul>

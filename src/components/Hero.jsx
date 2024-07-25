@@ -1,5 +1,6 @@
 import React from 'react';
-import hero from '../assets/lapto-_smile.webp'
+import hero from '../assets/lapto-_smile.webp';
+import Stella from '../assets/StellaSavoy.webp';
 import { Link } from 'react-scroll';
 
 
@@ -21,7 +22,7 @@ const Hero = () => {
           <button className='bg-theme-yellow w-[200px] rounded-lg font-medium my-6 mx-auto py-3'><Link to="contact" spy={true} smooth={true}  duration={500}>Зв'яжіться з нами</Link></button>
         </div> 
         <div className="relative lg:block hidden mt-4 mx-auto">
-          <img className='w-full relative z-10 rounded-lg shadow-lg' src={hero} alt="/" />
+          <img className='w-full relative z-10 rounded-lg shadow-lg' src={Stella} alt="/" />
           <div className="absolute w-full aspect-[4/5] bg-theme-yellow top-4 shadow-lg left-6 rounded-lg"></div>
           
         </div>
