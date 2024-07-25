@@ -21,26 +21,26 @@ const Footer = () => {
           <p className="text-theme-gray text-center md:text-start lg:text-lg">Ваш особистий податковий консультант</p>
         </div>
         <div className="flex flex-col gap-2">
-          <p className="text-theme-gray2 uppercase text-center">Зв'яжіться з нами</p>
-          <ul className='flex gap-4 items-center justify-center text-theme-blue2 basis-1/3'>
+          <p className="text-theme-gray text-lg uppercase text-center">Зв'яжіться з нами</p>
+          <ul className='flex gap-4 items-center justify-center text-theme-gray basis-1/3'>
           <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
             <a href="https://t.me/stelusik" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
-              <PiTelegramLogoLight size={27} />
+              <PiTelegramLogoLight size={30} />
             </a>
           </li>
           <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
             <a href="mailto:stelusik1982@gmail.com" rel="noopener noreferrer" aria-label="Email">
-              <GoMail size={25} />
+              <GoMail size={28} />
             </a>
           </li>
           <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
             <a href="tel:+380994620659" rel="noopener noreferrer" aria-label="Mobile Phone">
-              <PiPhoneCallLight size={25} />
+              <PiPhoneCallLight size={28} />
             </a>
           </li>
           <li className='hover:text-theme-yellow duration-150 ease-in-out cursor-pointer'>
             <a href="tel:+380733853119" rel="noopener noreferrer" aria-label="Mobile Phone">
-              <IoIosPhonePortrait size={25} />
+              <IoIosPhonePortrait size={28} />
             </a>
           </li>
           </ul>
