@@ -7,7 +7,7 @@ const FOP = () => {
   return (
     <div id="private" className='w-full bg-white py-8 lg:py-16 px-4'>
       <div className='max-w-[1240px] mx-auto grid lg:grid-cols-2 gap-8'>
-      <div className='relative overflow-hidden rounded-lg' style={{ height: 'auto' }}>
+      <div className='relative hidden lg:block overflow-hidden rounded-lg' style={{ height: 'auto' }}>
           <img
             className='absolute bottom-0 rounded-lg left-0 object-cover w-full '
             src={Laptop}
@@ -24,13 +24,13 @@ const FOP = () => {
             </h3>
             <ul className='pl-4'>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Відкриття та  закриття ФОП, внесення кведів.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Відкриття та  закриття ФОП, внесення кведів.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow'  /> Реєстрація точки торгівлі 20 Опп, ПРРО, РРО.
+                <PiCoinsLight className='text-theme-yellow shrink-0'  /> Реєстрація точки торгівлі 20 Опп, ПРРО, РРО.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Консультування та підготовка документів для отримання ліцензії, дозволів.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Консультування та підготовка документів для отримання ліцензії, дозволів.
               </li>
             </ul>
           </div>
@@ -40,13 +40,13 @@ const FOP = () => {
             </h3>
             <ul className='pl-4'>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Ведення обліку доходів і витрат.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Ведення обліку доходів і витрат.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow'  /> Підготовка та подання податкових декларацій.
+                <PiCoinsLight className='text-theme-yellow shrink-0'  /> Підготовка та подання податкових декларацій.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Ведення обліку заробітної плати та соціальних внесків.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Ведення обліку заробітної плати та соціальних внесків.
               </li>
             </ul>
           </div>
@@ -56,13 +56,13 @@ const FOP = () => {
             </h3>
             <ul className='pl-4'>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className=' text-theme-yellow' /> Консультації щодо оптимізації оподаткування.
+                <PiCoinsLight className=' text-theme-yellow shrink-0' /> Консультації щодо оптимізації оподаткування.
               </li>
               <li className='flex items-center py-1 gap-2 lg:text-lg'>
-                <PiCoinsLight className=' text-theme-yellow' /> Консультації щодо вибору системи оподаткування.
+                <PiCoinsLight className=' text-theme-yellow shrink-0' /> Консультації щодо вибору системи оподаткування.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Консультації з питань оформлення найму працівників.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Консультації з питань оформлення найму працівників.
               </li>
             </ul>
           </div>
@@ -72,10 +72,10 @@ const FOP = () => {
             </h3>
             <ul className='pl-4'>
               <li className='flex gap-2 items-center py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Консультації та допомога з вибором бухгалтерського програмного забезпечення.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Консультації та допомога з вибором бухгалтерського програмного забезпечення.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Підготовка до фінансових перевірок.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Підготовка до фінансових перевірок.
               </li>
             </ul>
           </div>

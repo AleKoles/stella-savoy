@@ -17,13 +17,13 @@ const Companies = () => {
             </h3>
             <ul className='pl-4'>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Ведення бухгалтерського та управлінського обліку.
+                <PiCoinsLight  className='text-theme-yellow shrink-0' /> Ведення бухгалтерського та управлінського обліку.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow'  /> Підготовка фінансової звітності відповідно до стандартів.
+                <PiCoinsLight className='text-theme-yellow shrink-0'  /> Підготовка фінансової звітності відповідно до стандартів.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Контроль за фінансовими потоками та аналіз доходів/витрат.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Контроль за фінансовими потоками та аналіз доходів/витрат.
               </li>
             </ul>
           </div>
@@ -33,13 +33,13 @@ const Companies = () => {
             </h3>
             <ul className='pl-4'>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className=' text-theme-yellow' /> Розробка податкових стратегій для зниження податкових зобов'язань.
+                <PiCoinsLight className=' text-theme-yellow shrink-0' /> Розробка податкових стратегій для зниження податкових зобов'язань.
               </li>
               <li className='flex items-center py-1 gap-2 lg:text-lg'>
-                <PiCoinsLight className=' text-theme-yellow' /> Проведення перевірки точності облікових записів.
+                <PiCoinsLight className=' text-theme-yellow shrink-0' /> Проведення перевірки точності облікових записів.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Підготовка та супровід під час податкових перевірок.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Підготовка та супровід під час податкових перевірок.
               </li>
             </ul>
           </div>
@@ -49,18 +49,18 @@ const Companies = () => {
             </h3>
             <ul className='pl-4'>
               <li className='flex gap-2 items-center py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Розробка та контроль бюджету підприємства.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Розробка та контроль бюджету підприємства.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Аналіз фінансових показників для прийняття управлінських рішень.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Аналіз фінансових показників для прийняття управлінських рішень.
               </li>
               <li className='flex items-center gap-2 py-1 lg:text-lg'>
-                <PiCoinsLight className='text-theme-yellow' /> Прогнозування грошових потоків та планування інвестицій.
+                <PiCoinsLight className='text-theme-yellow shrink-0' /> Прогнозування грошових потоків та планування інвестицій.
               </li>
             </ul>
           </div>
         </div>  
-        <div className='relative overflow-hidden rounded-lg' style={{ height: 'auto' }}>
+        <div className='relative hidden lg:block overflow-hidden rounded-lg' style={{ height: 'auto' }}>
           <img
             className='absolute bottom-0 rounded-lg left-0 object-cover w-full '
             src={Laptop}

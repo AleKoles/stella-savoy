@@ -7,7 +7,7 @@ import { Link } from 'react-scroll';
 
 const Hero = () => {
   return (
-    <div className='text-theme-gray mt-24' id="hero">
+    <div className='text-theme-gray mt-24 lg:mb-12 lg:mx-8 2xl:mx-0' id="hero">
       <div className=' max-w-7xl w-full h-[90vh] mx-auto text-center grid gap-16 grid-cols-1 lg:grid-cols-2'>
         <div className="relative bg-theme-gray/80 lg:bg-transparent flex flex-col gap-8 h-full w-full items-center justify-center px-4">
         <img className='top-0 -z-10  absolute object-cover lg:hidden w-full h-full' src={hero} alt="/" />
@@ -21,9 +21,9 @@ const Hero = () => {
           </div>
           <button className='bg-theme-yellow w-[200px] rounded-lg font-medium my-6 mx-auto py-3'><Link to="contact" spy={true} smooth={true}  duration={500}>Зв'яжіться з нами</Link></button>
         </div> 
-        <div className="relative lg:block hidden mt-4 mx-auto">
+        <div className="relative lg:block hidden mt-4 mx-auto ">
           <img className='w-full relative z-10 rounded-lg shadow-lg' src={Stella} alt="/" />
-          <div className="absolute w-full aspect-[4/5] bg-theme-yellow top-4 shadow-lg left-6 rounded-lg"></div>
+          <div className="absolute w-full aspect-[4/5] bg-theme-yellow top-4 shadow-lg left-4 rounded-lg"></div>
           
         </div>
       </div>
