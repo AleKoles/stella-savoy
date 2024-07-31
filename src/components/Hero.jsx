@@ -1,5 +1,4 @@
 import React from 'react';
-import hero from '../assets/smile.webp';
 import Stella from '../assets/StellaSavoy.webp';
 import { Link } from 'react-scroll';
 
@@ -12,7 +11,7 @@ const Hero = () => {
         <div className="relative bg-theme-gray/80 lg:bg-transparent flex flex-col gap-8 h-full w-full items-center justify-center px-4">
         <img
             className='top-0 -z-10 absolute object-cover lg:hidden w-full h-full'
-            src={hero}
+            src="/smile.webp"
             alt="Hero"
           />
           <h1 className='text-theme-yellow py-4 xl:text-7xl md:text-6xl sm:text-5xl text-4xl font-bold'>
