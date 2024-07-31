@@ -1,5 +1,5 @@
 import React from 'react';
-import hero from '../assets/lapto-_smile.webp';
+import hero from '../assets/smile.webp';
 import Stella from '../assets/StellaSavoy.webp';
 import { Link } from 'react-scroll';
 
