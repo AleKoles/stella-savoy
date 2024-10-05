@@ -49,7 +49,11 @@ const Footer = () => {
         
 
         </div>
-        <p className="cols-span-full w-full text-center text-theme-gray mt-8 text-sm">© 2024 Stella Savoy</p>
+        <div className="max-w-7xl mx-auto px-4 flex w-full justify-between text-theme-gray mt-8 text-sm">
+          <p className="">© 2024 Stella Savoy</p>
+          <p>Created by <a class="decoration underline" target="_blank" rel="noopener noreferrer" href="https://beefybee.com/">BeefyBee</a></p>
+        </div>
+        
         <ScrollToTop showUnder={160}>
           <div className="text-theme-gray hover:text-theme-yellow duration-150 ease-in-out flex flex-col">
             <SlArrowUp className="-mt-4" size={27}/>
